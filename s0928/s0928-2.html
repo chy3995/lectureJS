@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(0105 조희연)</title>
+</head>
+<body>
+    <h1>HTML 데이터입력</h1>
+    <div>
+        <form>
+            <input type="button" id="btn" class="btn" name="nameOK" value="Disable">
+        </form>
+
+        <button onclick="getDisabled()">Disabled 사용불가</button>
+        <button onclick="getAbled()">Disabled 사용가능</button>
+    </div>
+    <br>
+    <div>
+        <p>버튼 클릭 후, 콘솔에서 result 확인합니다.</p>
+        <button onclick="getType()">Type 확인 [속성]</button>
+        <br>
+        <button onclick="getId()">ID 확인 [속성]</button>
+        <button onclick="getClass()">Class 확인 [속성]</button>
+        <br>
+        <button onclick="getName()">Name 확인 [속성]</button>
+        <button onclick="getValue()">Value 확인 [속성]</button>
+    </div>
+    <script src="./s0928-2.js"></script>
+</body>
+</html>
